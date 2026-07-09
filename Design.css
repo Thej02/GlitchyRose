@@ -28,7 +28,7 @@
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
         }
 
-        .Rose-drawing {
+        .rose-drawing {
             margin-bottom: 1rem;
             min-height: 150px;
             display: flex;
@@ -36,7 +36,7 @@
             position: relative;
         }
 
-        #Rose-svg {
+        #rose-svg {
             stroke: #ec4899;
             stroke-width: 6;
         }
