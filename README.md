@@ -1,8 +1,6 @@
 # GlitchyRose - An interactive word guessing game using HTML, CSS and JS! 👧
 This is a classic Hangman game implemented using HTML, CSS, and JavaScript. The game features a retro-girly design with animations and sound effects.
 
-![urban](https://github.com/user-attachments/assets/fb013b1a-a497-4f05-994b-ecb8a2e20419)
-
 # Features
 **Interactive Hangman Drawing:** A stylized hangman drawing is displayed, with parts added as the player makes incorrect guesses.
 
