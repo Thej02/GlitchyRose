@@ -1,0 +1,174 @@
+        body {
+            font-family: 'Press Start 2P', sans-serif;
+            background-color: #fde6f2;
+            color: #e53e3e;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            padding: 2rem;
+            text-align: center;
+            background-color: #fff5f7;
+            border-radius: 1rem;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            border: 2px solid #f9a8d4;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+            color: #f43f5e;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .hangman-drawing {
+            margin-bottom: 1rem;
+            min-height: 150px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+
+        #hangman-svg {
+            stroke: #ec4899;
+            stroke-width: 6;
+        }
+
+        .animated-rope {
+            animation: swing 1s ease-in-out infinite;
+            transform-origin: top;
+        }
+        @keyframes swing {
+            0%, 100% { transform: rotate(0deg); }
+            50% { transform: rotate(15deg); }
+        }
+
+        .animated-head {
+            animation: shake 0.5s ease-in-out;
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-5px); }
+            75% { transform: translateX(5px); }
+        }
+
+        .word-display {
+            font-size: 2.25rem;
+            letter-spacing: 0.75rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            color: #d946ef;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .guesses-remaining {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: #f87171;
+        }
+
+        .guessed-letters {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            color: #e11d48;
+            min-height: 3rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+        .guessed-letters span {
+             padding: 0.25rem;
+        }
+
+        .keyboard {
+            display: grid;
+            grid-template-columns: repeat(13, 1fr);
+            gap: 0.25rem;
+            margin-bottom: 1rem;
+            justify-content: center;
+            max-width: 100%;
+        }
+
+        .keyboard button {
+            width: 100%;
+            padding: 0.75rem;
+            font-size: 1.2rem;
+            background-color: #fca5a5;
+            color: #ffffff;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+            aspect-ratio: 1/1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Press Start 2P', sans-serif;
+        }
+
+        .keyboard button:hover {
+            background-color: #f87171;
+            transform: scale(1.05);
+        }
+
+        .keyboard button:disabled {
+            background-color: #d8b4fe;
+            cursor: not-allowed;
+            opacity: 0.7;
+            box-shadow: none;
+            transform: none;
+        }
+
+        .game-message {
+            font-size: 1.75rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            min-height: 2.5rem;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .win-message {
+            color: #86ef7d;
+        }
+
+        .lose-message {
+            color: #f43f5e;
+        }
+
+        .reset-button {
+            padding: 0.75rem 1.5rem;
+            font-size: 1.2rem;
+            background-color: #fcd34d;
+            color: #ffffff;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+            margin-top: 1rem;
+            font-weight: 600;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+            font-family: 'Press Start 2P', sans-serif;
+        }
+
+        .reset-button:hover {
+            background-color: #facc15;
+            transform: scale(1.05);
+        }
+
+        .keyboard-row {
+            display: flex;
+            justify-content: center;
+            gap: 0.25rem;
+            width: 100%;
+        }
+
