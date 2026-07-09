@@ -1,4 +1,4 @@
-# GlitchyRose - An interactive word guessing game using HTML, CSS and JS! 👧
+# GlitchyRose - An interactive word guessing game using HTML, CSS and JS! 
 This is a classic 'GlitchyRose' game implemented using HTML, CSS, and JavaScript. The game features a retro-girly design with animations and sound effects.
 
 # Features
