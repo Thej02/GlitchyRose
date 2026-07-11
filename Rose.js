@@ -545,3 +545,227 @@ resetButton.addEventListener("click", () => {
     initializeGame();
 
 });
+// ===============================================
+// PHYSICAL KEYBOARD SUPPORT
+// ===============================================
+
+document.addEventListener("keydown", (event) => {
+
+    if (gameWon || gameLost) return;
+
+    const key = event.key.toUpperCase();
+
+    if (/^[A-Z]$/.test(key)) {
+
+        handleGuess(key);
+
+    }
+
+});
+
+
+// ===============================================
+// HANGMAN ANIMATION
+// ===============================================
+
+function animateHangman() {
+
+    const rope = document.getElementById("rope");
+
+    const head = document.getElementById("head");
+
+    rope.classList.add("animated-rope");
+
+    head.classList.add("animated-head");
+
+}
+
+
+// ===============================================
+// LOCAL STORAGE
+// ===============================================
+
+let highScore =
+    Number(localStorage.getItem("glitchyRoseHighScore")) || 0;
+
+function saveHighScore() {
+
+    if (score > highScore) {
+
+        highScore = score;
+
+        localStorage.setItem(
+            "glitchyRoseHighScore",
+            highScore
+        );
+
+    }
+
+}
+
+function loadHighScore() {
+
+    let board =
+        document.getElementById("high-score");
+
+    if (!board) {
+
+        board = document.createElement("h3");
+
+        board.id = "high-score";
+
+        board.style.marginTop = "20px";
+
+        board.style.color = "#ec4899";
+
+        document.querySelector(".container").appendChild(board);
+
+    }
+
+    board.textContent =
+        "🏆 High Score : " + highScore;
+
+}
+
+loadHighScore();
+
+
+// ===============================================
+// UPDATE HIGH SCORE AFTER WIN
+// ===============================================
+
+const originalWinGame = winGame;
+
+winGame = function () {
+
+    originalWinGame();
+
+    saveHighScore();
+
+    loadHighScore();
+
+    launchConfetti();
+
+};
+
+
+// ===============================================
+// RANDOM RESET ANIMATION
+// ===============================================
+
+function playResetAnimation() {
+
+    const container =
+        document.querySelector(".container");
+
+    container.animate(
+
+        [
+
+            {
+                transform: "scale(.95)"
+            },
+
+            {
+                transform: "scale(1.02)"
+            },
+
+            {
+                transform: "scale(1)"
+            }
+
+        ],
+
+        {
+
+            duration: 500
+
+        }
+
+    );
+
+}
+
+resetButton.addEventListener("click", playResetAnimation);
+
+
+// ===============================================
+// CONFETTI
+// ===============================================
+
+function launchConfetti() {
+
+    for (let i = 0; i < 80; i++) {
+
+        const piece =
+            document.createElement("div");
+
+        piece.className = "confetti";
+
+        piece.style.left =
+            Math.random() * window.innerWidth + "px";
+
+        piece.style.animationDelay =
+            Math.random() * 2 + "s";
+
+        piece.style.background =
+            [
+                "#ff4d94",
+                "#ec4899",
+                "#f9a8d4",
+                "#fbbf24",
+                "#ffffff"
+            ][Math.floor(Math.random() * 5)];
+
+        document.body.appendChild(piece);
+
+        setTimeout(() => {
+
+            piece.remove();
+
+        }, 4000);
+
+    }
+
+}
+
+
+// ===============================================
+// EXTRA POLISH
+// ===============================================
+
+window.addEventListener("load", () => {
+
+    document.querySelector(".container").animate(
+
+        [
+
+            {
+
+                opacity: 0,
+
+                transform: "translateY(40px)"
+
+            },
+
+            {
+
+                opacity: 1,
+
+                transform: "translateY(0px)"
+
+            }
+
+        ],
+
+        {
+
+            duration: 900,
+
+            easing: "ease"
+
+        }
+
+    );
+
+});
