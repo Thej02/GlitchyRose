@@ -20,7 +20,15 @@ A cute pastel-themed word guessing game inspired by the classic Hangman game, re
 -  Fully Responsive Design
 -  Smooth animations and transitions
 
+## 📸 Screenshots
 
+### Home
+<img width="611" height="788" alt="image" src="https://github.com/user-attachments/assets/8a7bb32d-2cca-4635-93ed-11fd3ba032d9" />
+
+### Gameplay
+
+
+---
 ##  Built With
 
 - HTML5
