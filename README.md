@@ -31,6 +31,7 @@ A cute pastel-themed word guessing game inspired by the classic Hangman game, re
 
 ##  Folder Structure
 
+```
 GlitchyRose
 │
 ├── index.html
@@ -42,6 +43,7 @@ GlitchyRose
 │   ├── images
 │   ├── icons
 │   └── sounds
+```
 
 
 ## 🎯 How to Play
