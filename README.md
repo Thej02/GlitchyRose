@@ -1,6 +1,7 @@
 # GlitchyRose :)
 
 > **Save the Digital Rose before it gets corrupted.**
+> "Every wrong guess fades the rose... every correct guess brings it back to life."
 
 A cute pastel-themed word guessing game inspired by the classic Hangman game, reimagined with a modern aesthetic, smooth animations, and an engaging gameplay experience.
 
@@ -93,6 +94,3 @@ It helps others discover the project and motivates future improvements.
 ## License
 
 This project is licensed under the MIT License.
-
-
-# "Every wrong guess fades the rose... every correct guess brings it back to life."
