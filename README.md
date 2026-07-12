@@ -15,7 +15,6 @@ A cute pastel-themed word guessing game inspired by the classic Hangman game, re
 -  Lives indicator
 -  Score tracking
 -  Win streak counter
--  Confetti celebration on victory
 -  High Score saved using Local Storage
 -  Fully Responsive Design
 -  Smooth animations and transitions
