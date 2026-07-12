@@ -1,28 +1,105 @@
-# GlitchyRose - An interactive word guessing game using HTML, CSS and JS! 
-This is a classic 'GlitchyRose' game implemented using HTML, CSS, and JavaScript. The game features a retro-girly design with animations and sound effects.
+# GlitchyRose :)
 
-# Features
-**Interactive Hangman Drawing:** A stylized hangman drawing is displayed, with parts added as the player makes incorrect guesses.
+> **Save the Digital Rose before it gets corrupted.**
+> "Every wrong guess fades the rose... every correct guess brings it back to life."
 
-**Themed Design:** The game features a fun, retro-girly design with a pink color scheme, pixel art font, and cute animations.
+A cute pastel-themed word guessing game inspired by the classic Hangman game, reimagined with a modern aesthetic, smooth animations, and an engaging gameplay experience.
 
-**Sound Effects:** Engaging sound effects enhance the user experience.
 
-**Responsive Keyboard:** An on-screen keyboard allows players to guess letters, with visual feedback for correct and incorrect guesses.
+##  Features
 
-**Word Display:** The game displays the word to guess with blanks for unguessed letters.
+-  Beautiful pastel pink UI
+-  Interactive on-screen keyboard
+-  Physical keyboard support
+-  Hint system
+-  Lives indicator
+-  Score tracking
+-  Win streak counter
+-  High Score saved using Local Storage
+-  Fully Responsive Design
+-  Smooth animations and transitions
 
-**Game Logic:** The game tracks correct and incorrect guesses, displays the number of remaining attempts, and determines when the player wins or loses.
+## 📸 Screenshots
 
-**Reset Button:** A reset button allows the player to start a new game at any time.
+### Home
+<img width="311" height="488" alt="image" src="https://github.com/user-attachments/assets/8a7bb32d-2cca-4635-93ed-11fd3ba032d9" />
 
-# Technologies Used
-- HTML
-- CSS
-- JavaScript
-- Tailwind CSS
+### Gameplay
 
-- Press Start 2P Font
+<img width="302" height="412" alt="Screenshot 2026-07-12 195203" src="https://github.com/user-attachments/assets/00b338bd-ff7c-4752-94a2-c628ba9c2e32" />
+<img width="302" height="412" alt="Screenshot 2026-07-12 195243" src="https://github.com/user-attachments/assets/eaaed9f0-8f0a-4a42-8b0c-3d9f51a79dc5" />
 
-# Animation
-CSS Animation
+---
+##  Built With
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- SVG
+- Local Storage API
+
+
+##  Folder Structure
+
+```
+GlitchyRose
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+│
+├── assets
+│   ├── images
+│   ├── icons
+│   └── sounds
+```
+
+
+## 🎯 How to Play
+
+1. Guess the hidden word.
+2. Each wrong guess reveals another part of the hanging figure.
+3. Guess the word before all lives are lost.
+4. Use the **Hint** button if you're stuck.
+5. Build your highest score and longest streak!
+
+##  Future Improvements
+
+-  Multiplayer Mode
+-  Leaderboard
+-  Background Music
+-  Difficulty Levels
+-  Custom Word Packs
+-  Game Statistics
+-  Dark Mode
+-  PWA Support
+-  Rose Corruption Animation
+-  Cloud Save
+
+
+## Contributing
+
+Contributions, ideas, and suggestions are always welcome!
+
+Feel free to fork this repository and submit a pull request.
+
+
+## Author
+
+**Thejaswi Nayak**
+
+- GitHub: https://github.com/Thej02
+- LinkedIn: https://www.linkedin.com/in/thejaswi-nayak
+
+
+## Support
+
+If you enjoyed this project, consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and motivates future improvements.
+
+
+## License
+
+This project is licensed under the MIT License.
