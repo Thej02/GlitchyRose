@@ -1,28 +1,165 @@
-# GlitchyRose - An interactive word guessing game using HTML, CSS and JS! 
-This is a classic 'GlitchyRose' game implemented using HTML, CSS, and JavaScript. The game features a retro-girly design with animations and sound effects.
+# 🌹 GlitchyRose
 
-# Features
-**Interactive Hangman Drawing:** A stylized hangman drawing is displayed, with parts added as the player makes incorrect guesses.
+> **Save the Digital Rose before it gets corrupted.**
 
-**Themed Design:** The game features a fun, retro-girly design with a pink color scheme, pixel art font, and cute animations.
+A cute pastel-themed word guessing game inspired by the classic Hangman game, reimagined with a modern aesthetic, smooth animations, and an engaging gameplay experience.
 
-**Sound Effects:** Engaging sound effects enhance the user experience.
+---
 
-**Responsive Keyboard:** An on-screen keyboard allows players to guess letters, with visual feedback for correct and incorrect guesses.
+##  Demo
 
-**Word Display:** The game displays the word to guess with blanks for unguessed letters.
+> *(Add your deployed link here after hosting)*
 
-**Game Logic:** The game tracks correct and incorrect guesses, displays the number of remaining attempts, and determines when the player wins or loses.
+🌐 https://your-demo-link.vercel.app
 
-**Reset Button:** A reset button allows the player to start a new game at any time.
+---
 
-# Technologies Used
-- HTML
-- CSS
-- JavaScript
-- Tailwind CSS
+##  Preview
 
-- Press Start 2P Font
+![GlitchyRose Preview](assets/images/preview.png)
 
-# Animation
-CSS Animation
+---
+
+##  Features
+
+-  Beautiful pastel pink UI
+-  Interactive on-screen keyboard
+-  Physical keyboard support
+-  Hint system
+-  Lives indicator
+-  Score tracking
+-  Win streak counter
+-  Confetti celebration on victory
+-  High Score saved using Local Storage
+-  Fully Responsive Design
+-  Smooth animations and transitions
+
+---
+
+##  Built With
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- SVG
+- Local Storage API
+
+---
+
+##  Folder Structure
+
+```
+GlitchyRose
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+│
+├── assets
+│   ├── images
+│   ├── icons
+│   └── sounds
+```
+
+---
+
+## 🎯 How to Play
+
+1. Guess the hidden word.
+2. Each wrong guess reveals another part of the hanging figure.
+3. Guess the word before all lives are lost.
+4. Use the **Hint** button if you're stuck.
+5. Build your highest score and longest streak!
+
+---
+
+## 📸 Screenshots
+
+### Home
+
+*(Add screenshot)*
+
+### Gameplay
+
+*(Add screenshot)*
+
+### Victory
+
+*(Add screenshot)*
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/GlitchyRose.git
+```
+
+Go to the project folder
+
+```bash
+cd GlitchyRose
+```
+
+Open
+
+```text
+index.html
+```
+
+or use **Live Server** in VS Code.
+
+---
+
+##  Future Improvements
+
+-  Multiplayer Mode
+-  Leaderboard
+-  Background Music
+-  Difficulty Levels
+-  Custom Word Packs
+-  Game Statistics
+-  Dark Mode
+-  PWA Support
+-  Rose Corruption Animation
+-  Cloud Save
+
+---
+
+## Contributing
+
+Contributions, ideas, and suggestions are always welcome!
+
+Feel free to fork this repository and submit a pull request.
+
+---
+
+## Author
+
+**Thejaswi Nayak**
+
+- GitHub: https://github.com/Thej02
+- LinkedIn: https://www.linkedin.com/in/thejaswi-nayak
+
+---
+
+## Support
+
+If you enjoyed this project, consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and motivates future improvements.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+# 🌷 "Every wrong guess fades the rose... every correct guess brings it back to life."
+
+Made with 💖 by **Tejaswi Nayak**
