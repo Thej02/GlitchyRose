@@ -96,5 +96,3 @@ This project is licensed under the MIT License.
 
 
 # "Every wrong guess fades the rose... every correct guess brings it back to life."
-
-Made with 💖 by **Tejaswi Nayak**
