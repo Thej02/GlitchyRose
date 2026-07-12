@@ -1,24 +1,9 @@
-# 🌹 GlitchyRose
+# GlitchyRose :)
 
 > **Save the Digital Rose before it gets corrupted.**
 
 A cute pastel-themed word guessing game inspired by the classic Hangman game, reimagined with a modern aesthetic, smooth animations, and an engaging gameplay experience.
 
----
-
-##  Demo
-
-> *(Add your deployed link here after hosting)*
-
-🌐 https://your-demo-link.vercel.app
-
----
-
-##  Preview
-
-![GlitchyRose Preview](assets/images/preview.png)
-
----
 
 ##  Features
 
@@ -34,7 +19,6 @@ A cute pastel-themed word guessing game inspired by the classic Hangman game, re
 -  Fully Responsive Design
 -  Smooth animations and transitions
 
----
 
 ##  Built With
 
@@ -44,11 +28,9 @@ A cute pastel-themed word guessing game inspired by the classic Hangman game, re
 - SVG
 - Local Storage API
 
----
 
 ##  Folder Structure
 
-```
 GlitchyRose
 │
 ├── index.html
@@ -60,9 +42,7 @@ GlitchyRose
 │   ├── images
 │   ├── icons
 │   └── sounds
-```
 
----
 
 ## 🎯 How to Play
 
@@ -71,48 +51,6 @@ GlitchyRose
 3. Guess the word before all lives are lost.
 4. Use the **Hint** button if you're stuck.
 5. Build your highest score and longest streak!
-
----
-
-## 📸 Screenshots
-
-### Home
-
-*(Add screenshot)*
-
-### Gameplay
-
-*(Add screenshot)*
-
-### Victory
-
-*(Add screenshot)*
-
----
-
-## 🚀 Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/GlitchyRose.git
-```
-
-Go to the project folder
-
-```bash
-cd GlitchyRose
-```
-
-Open
-
-```text
-index.html
-```
-
-or use **Live Server** in VS Code.
-
----
 
 ##  Future Improvements
 
@@ -127,7 +65,6 @@ or use **Live Server** in VS Code.
 -  Rose Corruption Animation
 -  Cloud Save
 
----
 
 ## Contributing
 
@@ -135,7 +72,6 @@ Contributions, ideas, and suggestions are always welcome!
 
 Feel free to fork this repository and submit a pull request.
 
----
 
 ## Author
 
@@ -144,7 +80,6 @@ Feel free to fork this repository and submit a pull request.
 - GitHub: https://github.com/Thej02
 - LinkedIn: https://www.linkedin.com/in/thejaswi-nayak
 
----
 
 ## Support
 
@@ -152,14 +87,12 @@ If you enjoyed this project, consider giving it a ⭐ on GitHub.
 
 It helps others discover the project and motivates future improvements.
 
----
 
 ## License
 
 This project is licensed under the MIT License.
 
----
 
-# 🌷 "Every wrong guess fades the rose... every correct guess brings it back to life."
+# "Every wrong guess fades the rose... every correct guess brings it back to life."
 
 Made with 💖 by **Tejaswi Nayak**
