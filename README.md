@@ -28,7 +28,7 @@ A cute pastel-themed word guessing game inspired by the classic Hangman game, re
 ### Gameplay
 
 <img width="302" height="412" alt="Screenshot 2026-07-12 195203" src="https://github.com/user-attachments/assets/00b338bd-ff7c-4752-94a2-c628ba9c2e32" />
-<img width="335" height="396" alt="Screenshot 2026-07-12 195243" src="https://github.com/user-attachments/assets/eaaed9f0-8f0a-4a42-8b0c-3d9f51a79dc5" />
+<img width="302" height="412" alt="Screenshot 2026-07-12 195243" src="https://github.com/user-attachments/assets/eaaed9f0-8f0a-4a42-8b0c-3d9f51a79dc5" />
 
 ---
 ##  Built With
